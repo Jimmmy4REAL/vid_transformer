@@ -4,7 +4,7 @@
 
 This application is designed to convert video files into audio. It follows a microservices architecture, with the codebase organized into distinct services, each responsible for a specific aspect of the application. The main components include:
 
-- **Authentication Service**: Handles user authentication and authorization.
+- **Authentication Service**: Handles user authentication and authorization, JWT was chosen.
 - **Gateway Service**: Manages incoming requests and routes them to the appropriate microservice.
 - **Converter Service**: Contains the core logic for video-to-audio conversion.
 - **RabbitMQ Service**: Configures and manages RabbitMQ, serving as a message broker for asynchronous processing.
