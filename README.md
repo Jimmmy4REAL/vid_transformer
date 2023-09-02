@@ -15,6 +15,7 @@ This application is designed to convert video files into audio. It follows a mic
 - **Data Storage**: MySQL is employed to store user authentication information, while MongoDB, specifically GridFS, is utilized to store both video and audio data. GridFS is particularly suited for handling large original videos while preserving their quality.
 - **Asynchronous Processing**: RabbitMQ is used as a message broker to enable asynchronous processing, enhancing the application's scalability and elasticity.
 - **Containerization**: Docker and Kubernetes are implemented to ensure the availability of replicated Converter Services, facilitating scaling up as needed.
+- **Version Control**: Git is used to track application milestones.
 
 ## Getting Started
 
